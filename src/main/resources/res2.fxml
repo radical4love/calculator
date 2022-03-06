@@ -24,9 +24,9 @@
             <Font name="System Bold" size="14.0" />
          </font>
       </Label>
-      <Text id="result" fx:id="result" layoutX="146.0" layoutY="393.0" wrappingWidth="80.0">
+      <Text id="result" fx:id="result" layoutX="146.0" layoutY="393.0" textAlignment="CENTER" wrappingWidth="80.0">
          <font>
-            <Font size="14.0" />
+            <Font name="System Bold" size="14.0" />
          </font></Text>
    </children>
 </AnchorPane>
