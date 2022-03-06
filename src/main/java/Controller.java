@@ -69,12 +69,12 @@ public class Controller {
         int r;
         a=Integer.parseInt(a_editable.getText());
         b=Integer.parseInt(b_editable.getText());
-        //if(b==0){
-        //    result.setText("nope, can't do this");
-       // }
-       // else{
+        if(b==0){
+           result.setText("nope, can't do this");
+        }
+        else{
         r = a/b;
         result.setText(String.valueOf(r));
         System.out.println(result.getText());
     }}
-//}
+}
