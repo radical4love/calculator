@@ -8,6 +8,12 @@ import javafx.scene.text.Text;
 public class Controller {
 
     @FXML
+    private Button division_choice;
+
+    @FXML
+    private Button multiplication_choice;
+
+    @FXML
     private TextField a_editable;
 
     @FXML
@@ -45,5 +51,26 @@ public class Controller {
         result.setText(String.valueOf(r));
         System.out.println(result.getText());
     }
-
+    @FXML
+    void multiply(MouseEvent event) {
+        int a;
+        int b;
+        int r;
+        a=Integer.parseInt(a_editable.getText());
+        b=Integer.parseInt(b_editable.getText());
+        r = a*b;
+        result.setText(String.valueOf(r));
+        System.out.println(result.getText());
+    }
+    @FXML
+    void divide(MouseEvent event) {
+        int a;
+        int b;
+        int r;
+        a=Integer.parseInt(a_editable.getText());
+        b=Integer.parseInt(b_editable.getText());
+        r = a/b;
+        result.setText(String.valueOf(r));
+        System.out.println(result.getText());
+    }
 }
