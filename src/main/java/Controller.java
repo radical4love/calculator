@@ -8,6 +8,9 @@ import javafx.scene.text.Text;
 public class Controller {
 
     @FXML
+    private Button power_choice;
+
+    @FXML
     private Button division_choice;
 
     @FXML
@@ -77,4 +80,16 @@ public class Controller {
         result.setText(String.valueOf(r));
         System.out.println(result.getText());
     }}
+
+    @FXML
+    void power(MouseEvent mouseEvent) {
+        int a;
+        int b;
+        int r;
+        a=Integer.parseInt(a_editable.getText());
+        b=Integer.parseInt(b_editable.getText());
+        r = (int) Math.pow(a,b);
+        result.setText(String.valueOf(r));
+        System.out.println(result.getText());
+    }
 }

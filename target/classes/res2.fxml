@@ -38,5 +38,10 @@
             <Font size="14.0" />
          </font>
       </Button>
+      <Button id="power_choice" fx:id="power_choice" layoutX="405.0" layoutY="372.0" mnemonicParsing="false" onMouseClicked="#power" prefHeight="30.0" prefWidth="110.0" text="Power">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>
